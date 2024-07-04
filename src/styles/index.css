@@ -1,0 +1,103 @@
+body {
+    width: 1728px;
+    font-family: 'Inter', sans-serif;
+}
+
+.topbar {
+    height: 100px;
+    background-color: var(--gray-1);
+    border-bottom: 2px solid var(--brand-1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 236px 0px 236px;
+}
+
+.logo {
+    width: 200px;
+    height: 20.8px;
+}
+
+.header-button {
+    width: 266px;
+    height: 60px;
+    border: 1px solid var(--gray-7);
+    background-color: var(--gray-1);
+    font-weight: 600;
+    font-size: 15px;
+    color: var(--gray-7);
+    padding: 20px 32px 20px 32px;
+}
+
+.section-banner {
+    background-color: var(--gray-2);
+    height: 281px;
+    padding: 250px 236px 250px 236px;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 52px;
+    width: 1085px;
+    height: 73px;
+    line-height: 72.8px;
+    margin: 44px;
+    color: var(--gray-6);
+}
+
+span {
+    color: var(--brand-1);
+}
+
+.section-banner--container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-banner--text {
+    color: var(--gray-4);
+    width: 770px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 44px;
+}
+
+.section-banner--button {
+    width: 142px;
+    height: 60px;
+    background-color: var(--brand-1);
+    border: 1px solid var(--brand-1);
+    color: var(--gray-7);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.section-about {
+    background-color: var(--gray-1);
+    height: 120px;
+    padding: 82px 236px 82px 236px;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 600;
+    color: var(--gray-6);
+    width: 620px;
+    height: 46px;
+}
+
+.section-about--text {
+    color: var(--gray-5);
+    font-size: 20px;
+    font-weight: 400;
+    text-align: justify;
+    width: 580px;
+    height: 120px;
+}
+
+.section-about--container {
+    display: flex;
+}
