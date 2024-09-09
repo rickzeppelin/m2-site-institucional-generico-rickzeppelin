@@ -89,6 +89,13 @@ h2 {
     height: 46px;
 }
 
+h3 {
+    font-size: 32px;
+    font-weight: 600;
+    color: var(--gray-6);
+    height: 51px;
+}
+
 .section-about--text {
     color: var(--gray-5);
     font-size: 20px;
@@ -100,4 +107,117 @@ h2 {
 
 .section-about--container {
     display: flex;
+}
+
+.section-faq {
+    background-color: var(--gray-2);
+    height: 1387px;
+    padding: 82px 236px 82px 236px;
+}
+
+.section-faq--container {
+    display: flex;
+}
+
+.section-faq--duvidas {
+    width: 620px;
+    height: 280px;
+}
+
+.section-faq--ul {
+    width: 583px;
+    list-style-type: none;
+    text-align: center;
+}
+
+.section-faq--button {
+    width: 266px;
+    height: 60px;
+    background-color: var(--brand-1);
+    border: 1px solid var(--brand-1);
+    color: var(--gray-7);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.section-faq--text {
+    color: var(--gray-4);
+    width: 583px;
+    font-size: 20px;
+    text-align: left;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 44px;
+}
+
+.section-comments {
+    background-color: var(--gray-2);
+    height: 1387px;
+    padding: 82px 236px 82px 236px;
+}
+
+.section-comments--container {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.section-comments--text {
+    color: var(--gray-4);
+    width: 412px;
+    font-size: 20px;
+    text-align: left;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 44px;
+}
+
+.section-comments--square {
+    background-color: var(--brand-1);
+    width: 413.6px;
+    height: 363px;
+    margin-left: 35px;
+    padding: 80px 52px 80px 52px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.section-comments--ul {
+    width: 620px;
+    list-style-type: none;
+}
+
+.section-comments--name {
+    width: 192px;
+    margin-right: 8px;
+}
+
+.section-comments--desc {
+    color: var(--gray-4);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.section-comments--title {
+    line-height: 64px;
+}
+
+.section-comments--li {
+    display: flex;
+    margin: 16px;
+}
+
+.narrow {
+    width: 533px;
+    text-align: justify;
+}
+
+.bottombar {
+    height: 52px;
+    background-color: var(--gray-1);
+    border-bottom: 2px solid var(--brand-1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 775px 50px 775px;
 }
