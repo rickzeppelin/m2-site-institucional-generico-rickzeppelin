@@ -4,6 +4,7 @@ body {
 }
 
 .topbar {
+    width: 1254px;
     height: 100px;
     background-color: var(--gray-1);
     border-bottom: 2px solid var(--brand-1);
@@ -11,6 +12,8 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 0px 236px 0px 236px;
+    position: fixed;
+    z-index: 1;
 }
 
 .logo {
@@ -122,6 +125,8 @@ h3 {
 .section-faq--duvidas {
     width: 620px;
     height: 280px;
+    position: sticky;
+    top: 200px;
 }
 
 .section-faq--ul {
@@ -180,6 +185,8 @@ h3 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    position: sticky;
+    top: 200px;
 }
 
 .section-comments--ul {
