@@ -308,3 +308,114 @@ h3 {
     z-index: 999;
     display: none;
 }
+
+/* Tablet Landscape (1024px) */
+@media (max-width: 1024px) {
+    body {
+        width: 100%;
+    }
+
+    .topbar {
+        width: 100%;
+        padding: 0 100px;
+    }
+
+    .section-banner, .section-about, .section-faq, .section-comments {
+        padding: 150px 100px;
+    }
+
+    h1 {
+        font-size: 42px;
+        width: 90%;
+        text-align: center;
+    }
+
+    .section-banner--text, .section-about--text, .section-faq--text, .section-comments--text {
+        width: 100%;
+    }
+}
+
+/* Tablet Portrait (768px) */
+@media (max-width: 768px) {
+    .topbar {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .section-banner, .section-about, .section-faq, .section-comments {
+        padding: 100px 50px;
+    }
+
+    h1 {
+        font-size: 30px;
+        width: 100%;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 24px;
+        width: 100%;
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 18px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .section-banner--text, .section-about--text, .section-faq--text, .section-comments--text {
+        font-size: 12px;
+    }
+
+    .section-comments--container {
+        flex-direction: column;
+    }
+}
+
+/* Mobile (425px) */
+@media (max-width: 425px) {
+    .topbar {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+        align-items: center;
+    }
+
+    .section-banner, .section-about, .section-faq, .section-comments {
+        padding: 50px 20px;
+    }
+
+    h1 {
+        font-size: 24px;
+        line-height: 1.2;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    h3 {
+        font-size: 14px;
+    }
+
+    .section-banner--text, .section-about--text, .section-faq--text, .section-comments--text {
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .section-comments--container {
+        flex-direction: column;
+    }
+
+    .modal {
+        width: 90%;
+        left: 5%;
+        padding: 20px;
+    }
+
+    .modal-input, .modal-button {
+        width: 100%;
+    }
+}
